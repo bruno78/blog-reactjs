@@ -42,7 +42,8 @@ export default class Blog extends Component {
 
     if(!this.props.params.slug){
 
-      main_content =
+      main_content = <BlogList getMoreArticles={ this.getMoreArticles } data={ data }/>
+
 
     } else {
 
@@ -52,7 +53,7 @@ export default class Blog extends Component {
       const slug = this.props.params.slug
       const articles_object = _.indexBy(articles, 'slug')
       const article = articles_object[slug]
-      main_content =
+      main_content = <Post article={ article } />
 
     }
 

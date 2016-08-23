@@ -53,7 +53,7 @@ export default class Work extends Component {
       // Get current page slug
       const slug = this.props.params.slug
       const work_items_object = _.indexBy(work_items, 'slug')
-      const work_items = work_items_object[slug]
+      const work_item = work_items_object[slug]
 
       main_content = <WorkSingle data={ data } work_item={ work_item }/>
     }

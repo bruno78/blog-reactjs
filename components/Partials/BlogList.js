@@ -28,7 +28,7 @@ export default class BlogList extends Component {
         <div>
           <button class = 'btn btn-default center-block' onClick={ this.props.getMoreArticles.bind(this)}>
             { shore_more_text }
-          </button
+          </button>
         </div>
       )
     }

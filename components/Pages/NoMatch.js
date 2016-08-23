@@ -21,7 +21,7 @@ export default class NoMatch extends Component {
 
   getPageData(){
     AppDispatcher.dispatch({
-      action: 'get-page-data'
+      action: 'get-page-data',
       slug: 'home'
     })
   }
