@@ -4,7 +4,7 @@ import { Route, IndexRoute, Link } from 'react-router'
 // This will be shared between client-side (browser history) and server-side (no browser history)
 
 // Store
-import AppStore from './store/AppStore'
+import AppStore from './stores/AppStore'
 
 // Main component
 import App from './components/App'
