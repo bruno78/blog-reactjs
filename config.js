@@ -5,7 +5,7 @@ export default {
     title: 'React/Flux Blog'
   },
   bucket: {
-    slug: 'react-universal-blog',
+    slug: 'react-flux-blog',
     media_url: 'https//cosmicjs.com/uploads'
   }
 }
