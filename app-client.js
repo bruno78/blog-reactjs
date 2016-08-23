@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router } from 'react-router'
-import createBrowserHistory from 'history/lib/createBrowserHistory'
+import { Router, browserHistory } from 'react-router'
 
-// browser history for client-side routing 
-const history = createBrowserHistory()
+
+// browser history for client-side routing
+const history = browserHistory
 
 // Routes
 import routes from './routes'
